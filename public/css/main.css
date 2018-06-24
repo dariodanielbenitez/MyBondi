@@ -1,0 +1,84 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+.container {
+    max-width: 980px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #geocoding_form {
+    margin: 40px auto 40px;
+  }
+  
+  .input-group {
+    margin-left: 4%;
+  }
+  
+  .find-me.btn:focus {
+    border-color: transparent;
+    outline: 0;
+  }
+  
+  .coordinates {
+    font-size: 18px;
+    opacity: 0;
+    margin-bottom: 40px;
+  }
+  
+  .no-browser-support {
+    font-size: 18px;
+    opacity: 0;
+  }
+  
+  .coordinates b:first-child {
+    margin-right: 15px;
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .map-overlay {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    border-radius: 2px;
+  }
+  
+  #map {
+    height: 100%;
+  }
+  
+#clima{
+  height: 75px;
+  width: 100%;
+  border-left-color: #fff;
+}
+
+.footer {
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+.button{
+  background:coral;
+  padding:1em 2em;
+  color:#fff;
+  border:0;
+  display: none;
+}
