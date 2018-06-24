@@ -12,7 +12,7 @@ app.use(express.static('public'));
 //creamos los arrays necesarios
 users = [];
 conexiones = [];
-
+///probando git-guthub
 
 io.sockets.on('connection', socket => {
     conexiones.push(socket);
